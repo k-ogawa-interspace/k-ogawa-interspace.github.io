@@ -27,8 +27,7 @@
             'c=1895899684' +
             '&n=' + XLR.num +
             '&a=' + XLR.amount +
-            '&i=' + XLR.id +
-            '&aid=' + 2;
+            '&i=' + XLR.id;
         var scriptNode = document.createElement('script');
         scriptNode.async = true;
         scriptNode.src = url;
@@ -36,6 +35,7 @@
         target.parentNode.insertBefore(scriptNode, target);
     }
     XLR.main();
+
 </script>
 </body>
 </html>
